@@ -1,0 +1,10 @@
+type: object
+title: NotFoundError
+description: Returned when a requested resource cannot be found.
+required:
+  - error
+properties:
+  error:
+    type: string
+    description: Error message explaining what was not found.
+    example: Task not found

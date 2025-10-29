@@ -1,0 +1,8 @@
+name: id
+in: path
+required: true
+description: Numeric ID of the task
+schema:
+  type: integer
+  format: int32
+  example: 42

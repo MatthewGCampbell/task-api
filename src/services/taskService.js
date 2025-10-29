@@ -4,6 +4,10 @@ export async function getAllTasks() {
   return taskRepository.findAll();
 }
 
+export async function getById(id) {
+  return taskRepository.findById(id);
+}
+
 export async function createTask(newTask) {
   return taskRepository.create(newTask);
 }
